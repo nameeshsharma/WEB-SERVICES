@@ -1,0 +1,8 @@
+My WebService Framework supports following annotations - Path, ClassType, ResponseType, RequestData and Forward.
+Of which, Path is a class and method annotation, Forward and ResponseType is a method annotation, ClassType and RequestData are parameter annotations.
+These all annotations can be applied on different classes and methods.
+The Path annotation is used to locate the method based on the url.
+The Forward Request is used to forward request to another page.
+The ClassType annotation is used when the parameter of any method is non primitive.
+The RequestData is used for the primitives and their Wrappers including String Class.
+The ResponseData is used to know the return type of the method. For now, I have only defined 3 - Nothing, HTML and JSON.
